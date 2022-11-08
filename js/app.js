@@ -85,11 +85,11 @@ switch (item) {
 
 //Write your code below this line:
 
-const min = 50;
-const max = 100;
+let min = 50;
+let max = 100;
 
 //const called  a which finds a random whole number between const min/max(50 and 100)
-const a = Math.floor(Math.random() * (max - min + 1)) + min; 
+const a = Math.floor(Math.random() * (max - min)) + min; 
 
 // shows that random number between 50 - 100
 console.log(`Random value between ${min} and ${max} is ${a}`);
